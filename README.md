@@ -1,0 +1,1 @@
+Mock environment for deploying test winget manifests
