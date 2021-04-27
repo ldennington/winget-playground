@@ -1,0 +1,19 @@
+PackageIdentifier: Microsoft.Git
+PackageVersion: 2.31.1.vfs.0.0
+PackageName: Microsoft Git
+Publisher: Microsoft Corporation
+Moniker: microsoft-git
+PackageUrl: https://aka.ms/ms-git
+Tags: "microsoft/git"
+License: Copyright (C) Microsoft Corporation
+ShortDescription: Git distribution to support monorepo scenarios. 
+                  Note: This is not Git for Windows - unless you are working in a monorepo and require
+                  specific Git modifications, please run `winget install git` to install Git for Windows instead.
+Installers:
+- Arch: x64
+  Url: https://github.com/microsoft/git/releases/download/v2.31.1.vfs.0.0/Git-2.31.1.vfs.0.0-64-bit.exe
+  InstallerType: Inno
+  Sha256: 3bf808c5008998c691491fc583c54f0538203d1f08587a77b092a7b783d2c992
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
