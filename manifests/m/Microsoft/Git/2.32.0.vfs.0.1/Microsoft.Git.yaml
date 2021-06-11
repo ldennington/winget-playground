@@ -1,0 +1,19 @@
+PackageIdentifier: Microsoft.Git
+PackageVersion: 2.32.0.vfs.0.1
+PackageName: Microsoft Git
+Publisher: The Git Development Community
+Moniker: microsoft-git
+PackageUrl: https://aka.ms/gcmcore
+License: Copyright (C) Microsoft Corporation
+ShortDescription: |
+Git distribution to support monorepo scenarios.
+Note: This is not Git for Windows. Unless you are working in a monorepo and require
+specific Git modifications, please run `winget install git` to start using Git for Windows.
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/microsoft/git/releases/download/v2.32.0.vfs.0.1/Git-2.32.0.vfs.0.1-64-bit.exe
+  InstallerType: inno
+  InstallerSha256: 1809b81631eb1fa2104a028ced5d98135a50c502fce6b26b11ac5e1b54f335c7
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
